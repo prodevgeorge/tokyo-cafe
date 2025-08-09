@@ -1,6 +1,6 @@
 const switchBtn = document.getElementById('lang-switch');
-const enContent = document.querySelector('.lang.en');
-const jaContent = document.querySelector('.lang.ja');
+const enContent = document.querySelectorAll('.lang.en');
+const jaContent = document.querySelectorAll('.lang.ja');
 
 let lang = window.location.pathname.startsWith('/ja/') ? 'ja' : 'en';
 applyLanguage(lang);
