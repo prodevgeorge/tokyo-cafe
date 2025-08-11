@@ -1,6 +1,6 @@
 const switchBtn = document.getElementById('lang-switch');
-const enContent = document.querySelectorAll('.lang.en');
-const jaContent = document.querySelectorAll('.lang.ja');
+// const enContent = document.querySelector('.lang.en');
+// const jaContent = document.querySelector('.lang.ja');
 
 let lang = window.location.pathname.startsWith('/ja/') ? 'ja' : 'en';
 applyLanguage(lang);
@@ -15,16 +15,24 @@ switchBtn.addEventListener('click', () => {
 
 function applyLanguage(language) {
   if (language === 'en') {
-    enContent.style.display = '';
-    jaContent.style.display = 'none';
+    // enContent.style.display = '';
+    // jaContent.style.display = 'none';
     switchBtn.textContent = '日本語';
     document.documentElement.lang = 'en';
   } else {
-    enContent.style.display = 'none';
-    jaContent.style.display = '';
+    // enContent.style.display = 'none';
+    // jaContent.style.display = '';
     switchBtn.textContent = 'English';
     document.documentElement.lang = 'ja';
   }
+
+  document.querySelectorAll('.lang.en').forEach(el => {
+    el.style.display = (language === 'en') ? '' : 'none';
+  });
+  document.querySelectorAll('.lang.ja').forEach(el => {
+    el.style.display = (language === 'ja') ? '' : 'none';
+  });
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
