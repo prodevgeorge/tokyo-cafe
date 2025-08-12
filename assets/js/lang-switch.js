@@ -25,7 +25,7 @@ function applyLanguage(language) {
   } else {
     // enContent.style.display = 'none';
     // jaContent.style.display = '';
-    switchBtn.textContent = 'English';
+    switchBtn.textContent = 'Eng';
     document.documentElement.lang = 'ja';
   }
 
