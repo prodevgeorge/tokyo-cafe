@@ -2835,8 +2835,10 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			/* background-color: #21b2a6; */
-			background-color: #4A8296;
-			color: #c8ece9;
+			/* background-color: #4A8296; */
+			background-color: #2e3842;
+			/* color: #c8ece9; */
+			color: #E8ECEF;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2868,7 +2870,8 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				/* color: #c8ece9; */
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -2894,7 +2897,8 @@ input, select, textarea {
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #c8ece9;
+				/* color: #c8ece9; */
+				color: #ffffff;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -2998,7 +3002,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			/* background-color: #505393; */
+			background-color: #3A4066;
 			color: #d3d4e4;
 		}
 
@@ -3370,7 +3375,8 @@ input, select, textarea {
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
 		/* background: #21b2a6; */
-		background: #4A8296;
+		/* background: #4A8296; */
+		background: #3A4066;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3404,7 +3410,8 @@ input, select, textarea {
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 0.8em;
+					/* font-size: 0.8em; */
+					font-size: 1em;
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
