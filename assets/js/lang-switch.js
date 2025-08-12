@@ -22,11 +22,19 @@ function applyLanguage(language) {
     // jaContent.style.display = 'none';
     switchBtn.textContent = '日本語';
     document.documentElement.lang = 'en';
+    document.getElementById("demo-name").placeholder = "Name";
+    document.getElementById("demo-email").placeholder = "Email";
+    document.getElementById("demo-message").placeholder = "Enter your message";
+
   } else {
     // enContent.style.display = 'none';
     // jaContent.style.display = '';
     switchBtn.textContent = 'Eng';
     document.documentElement.lang = 'ja';
+    document.getElementById("demo-name").placeholder = "名前";
+    document.getElementById("demo-email").placeholder = "電子メールアドレス";
+    document.getElementById("demo-message").placeholder = "メッセージを入力してください";
+
   }
 
   document.querySelectorAll('.lang.en').forEach(el => {

@@ -2554,6 +2554,22 @@ input, select, textarea {
 		padding: 0;
 		width: 100%;
 	}
+/* vvvvv g:add */
+		.features .image {
+			/* -moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 100%; */
+		}
+
+			.features .image img {
+				border-radius: 0;
+				width: 100%;
+			}
+
+/* ^^^^^ g:add */
 
 		.features li {
 			padding: 4em 4em 2em 6em ;
@@ -3554,7 +3570,7 @@ input, select, textarea {
 					#header nav > ul > li:first-child {
 						margin-left: 0;
 					}
-
+/* vvvvv g: comment out, want the bar always on
 		#header.alt {
 			background: transparent;
 		}
@@ -3563,6 +3579,8 @@ input, select, textarea {
 				pointer-events: none;
 				opacity: 0;
 			}
+				
+vvvvv g: comment out, want the bar always on */
 
 /* Banner */
 
@@ -4005,13 +4023,17 @@ input, select, textarea {
 
 /* g: css */
 /* section one */
-#one .image img {
+/* #one .image img {
 	max-width: 100%;
-	/* width: 100px; */
-}
+
+} */
 
 .map {
 	padding-bottom: 30px;
+}
+
+.features .image {
+	padding-bottom: 20px;
 }
 
 .disabled-link {
@@ -4021,3 +4043,4 @@ input, select, textarea {
   opacity: 0.6;           /* Faded look */
   cursor: default;        /* Normal cursor */
 }
+
