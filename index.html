@@ -23,21 +23,45 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Tokyo Cafe</a></h1>
+						<h1>
+							<a href="index.html" class="lang en">Tokyo Cafe</a>
+							<a href="index.html" class="lang ja" style="display:none;">東京カフェ</a>
+						</h1>
 						<nav id="nav">
 							<ul>
-								<li><button id="toggleLanguage">日本語</button></li>
+								<li><button id="lang-switch">日本語</button></li>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span><!-- Menu --></span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="#one">Menu</a></li>
-											<li><a href="#three">Location</a></li>
-											<li><a href="#two">Hours</a></li>
-											<li><a href="#about">About</a></li>
-											<li><a href="#stories">Stories</a></li>
-											<li><a href="#footer">Contact Us</a></li>
+											<li>
+												<a href="index.html" class="lang en">Home</a>
+												<a href="index.html" class="lang ja" style="display:none;">ホーム</a>
+											</li>
+											<li>
+												<a href="#one" class="lang en">Menu</a>
+												<a href="#one" class="lang ja" style="display:none;">メニュー</a>
+											</li>
+											<li>
+												<a href="#three" class="lang en">Location</a>
+												<a href="#three" class="lang ja" style="display:none;">アクセス</a>
+											</li>
+											<li>
+												<a href="#two" class="lang en">Hours</a>
+												<a href="#two" class="lang ja" style="display:none;">営業時間</a>
+											</li>
+											<li>
+												<a href="#about" class="lang en">About</a>
+												<a href="#about" class="lang ja" style="display:none;">東京カフェについて</a>
+											</li>
+											<li>
+												<a href="#stories" class="lang en">Stories</a>
+												<a href="#stories" class="lang ja" style="display:none;">お客様の声</a>
+											</li>
+											<li>
+												<a href="#footer" class="lang en">Contact Us</a>
+												<a href="#footer" class="lang ja" style="display:none;">お問い合わせ</a>
+											</li>
 										</ul>
 									</div>
 								</li>
@@ -48,44 +72,41 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Tokyo Cafe</h2>
+							<h2 class="lang en">Tokyo Cafe</h2>
+							<h2 class="lang ja" style="display:none;">東京カフェ</h2>
 							<!-- <p>Another fine responsive<br />
 							site template freebie<br />
 							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
 							
 
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#one" class="lang en more scrolly">Learn More</a>
+						<a href="#one" class="lang ja more scrolly" style="display:none;">詳細はこちら</a>
 					</section>
 
 				<!-- One -->
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<div class="lang en">
-									<h2>Menu</h2>
-									<p>Enjoy our wide selection of coffee and pasteries, expertly prepared to match</p>
-								</div>
-								<div class="lang ja" style="display:none;">
-									<h2>メニュー</h2>
-									<p>当店の豊富なコーヒーとペイストリーラインナップを、専門のスタッフが丁寧に調理し、お楽しみください。</p>
-								</div>
+								<h2 class="lang en">Menu</h2>
+								<h2 class="lang ja" style="display:none;">メニュー</h2>
+
+								<p class="lang en">Enjoy our wide selection of coffee and pasteries, expertly prepared to match</p>
+								<p class="lang ja" style="display:none;">当店の豊富なコーヒーとペイストリーラインナップを、専門のスタッフが丁寧に調理し、お楽しみください。</p>
 							</header>
 							<ul class="features">
 								<li> <!-- <li class="icon fa-paper-plane">		 -->
 									
-									<div class="image"><img src="images/Coffee/green-coffee-cup-400x226.jpg" alt="" /></div><div class="content">
+									<div class="image"><img src="images/Coffee/green-coffee-cup-400x226.jpg" alt="" /></div>
+									<div class="content">
 									 <!-- <img src="images/Coffee/green-coffee-cup.jpg" alt="" /> -->
 
-									<div class="lang en">
-										<h3><i class="fa-solid fa-mug-hot"></i> Drinks</h3>
-										<p>Indulge in our curated selection of drinks, crafted to refresh and delight. Sip on artisanal matcha lattes, brewed with premium Uji green tea, or savor our signature yuzu-infused iced teas for a zesty twist. From velvety flat whites to chilled sakura mochas, each beverage is a taste of Tokyo’s vibrant spirit. Pair your drink with our cozy ambiance and let the city’s energy melt away.</p>
-									</div>
+										<h3 class="lang en"><i class="fa-solid fa-mug-hot"></i> Drinks</h3>
+										<h3 class="lang ja" style="display:none;"><i class="fa-solid fa-mug-hot"></i> ドリンク</h3>
 
-									<div class="lang ja" style="display:none;">
-										<h3><i class="fa-solid fa-mug-hot"></i> ドリンク</h3>
-										<p>当店の厳選されたドリンクコレクションをお楽しみください。リフレッシュと喜びを追求して作られたドリンクの数々です。プレミアムな宇治緑茶を使用した手作りの抹茶ラテをゆっくりと味わったり、当店のシグネチャーであるユズ風味のアイスティーで爽やかなアクセントを加えてみたり。シルキーなフラットホワイトから冷たいサクラモカまで、それぞれのドリンクは東京の活気ある精神を体現しています。ドリンクと当店の温かい雰囲気を組み合わせ、街の活気を溶かしていくようなひとときをお過ごしください。</p>
-									</div>	
+										<p class="lang en">Indulge in our curated selection of drinks, crafted to refresh and delight. Sip on artisanal matcha lattes, brewed with premium Uji green tea, or savor our signature yuzu-infused iced teas for a zesty twist. From velvety flat whites to chilled sakura mochas, each beverage is a taste of Tokyo’s vibrant spirit. Pair your drink with our cozy ambiance and let the city’s energy melt away.</p>
+										<p class="lang ja" style="display:none;">当店の厳選されたドリンクコレクションをお楽しみください。リフレッシュと喜びを追求して作られたドリンクの数々です。プレミアムな宇治緑茶を使用した手作りの抹茶ラテをゆっくりと味わったり、当店のシグネチャーであるユズ風味のアイスティーで爽やかなアクセントを加えてみたり。シルキーなフラットホワイトから冷たいサクラモカまで、それぞれのドリンクは東京の活気ある精神を体現しています。ドリンクと当店の温かい雰囲気を組み合わせ、街の活気を溶かしていくようなひとときをお過ごしください。</p>
+									</div>
 <!-- 
 BATCH BREW
 ホットコーヒー
@@ -108,21 +129,23 @@ AMERICANO (HOT / ICED)
 								</li>
 								
 								<li>	<!-- <li class="icon solid fa-laptop"> -->
-									<div class="image"><img src="images/Pastries/croissant-reflection-400x226.jpg" alt="" /></div><div class="content">
-
-									<!-- <div class="lang en"> -->
+									<div class="image"><img src="images/Pastries/croissant-reflection-400x226.jpg" alt="" />
+									</div>
+									<div class="content">
 										<h3 class="lang en"><i class="fa-solid fa-burger"></i> Food</h3>
-										<p class="lang en">From delicate croissants with buttery layers to matcha-infused danishes and seasonal fruit tarts, our pastries are crafted fresh each morning by our in-house baker. We blend French-inspired techniques with Japanese flavors, creating treats that are as beautiful as they are delicious. Perfect for pairing with your favorite coffee—or simply enjoying on their own.</p>
-									<!-- </div> -->
-									<!-- <div class="lang ja" style="display:none;">		 -->
 										<h3 class="lang ja" style="display:none;"><i class="fa-solid fa-burger"></i> フード</h3>
+
+										<p class="lang en">From delicate croissants with buttery layers to matcha-infused danishes and seasonal fruit tarts, our pastries are crafted fresh each morning by our in-house baker. We blend French-inspired techniques with Japanese flavors, creating treats that are as beautiful as they are delicious. Perfect for pairing with your favorite coffee—or simply enjoying on their own.</p>
 										<p class="lang ja" style="display:none;">繊細なクロワッサンから抹茶入りのデニッシュ、季節のフルーツタルトまで、当店のペストリーは毎日朝一番に店内専属のベーカーが新鮮に焼き上げています。フランス風の技術と日本の風味を融合させ、見た目も味も素晴らしいスイーツを生み出しています。お好みのコーヒーと合わせるのも、そのまま楽しむのもおすすめです。</p>
 									</div>
 								</li>
 							</ul>
 
 							<ul class="actions special">
-								<li><a href="#" class="button primary disabled-link">Download Menu</a></li>
+								<li>
+									<a href="#" class="lang en button primary disabled-link">Download Menu</a>
+									<a href="#" class="lang ja button primary disabled-link" style="display:none;">メニュー ダウンロード</a>
+								</li>
 							</ul>
 						
 							<!-- <ul class="icons major">
@@ -138,11 +161,16 @@ AMERICANO (HOT / ICED)
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Location</h2>
+								<h2 class="lang en">Location</h2>
+								<h2 class="lang ja" style="display:none;">アクセス</h2>
+
 								<!-- <h2>Accumsan mus tortor nunc aliquet</h2> -->
-								<p>Centrally located in the heart of Tokyo</p>
+								<p class="lang en">Centrally located in the heart of Tokyo</p>
+								<p class="lang ja" style="display:none;">東京の中心部に位置しています</p>
+								
 							</header>
-							<p>5-17-20 Jingūmae, Shibuya, Tokyo 150-0001</p>
+							<p class="lang en">5-17-20 Jingūmae, Shibuya, Tokyo 150-0001</p>
+							<p class="lang ja" style="display:none;">〒150-0001 東京都渋谷区神宮前５丁目１７−２０</p>
 							<!-- 〒160-0022 <br>
 							Tokyo, Shinjuku City, Shinjuku, 1-chōme−36−2 <br>
 							新宿第七葉山ビル 3f -->
@@ -159,13 +187,17 @@ AMERICANO (HOT / ICED)
 
 								<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d170.14503569440728!2d139.70480234850942!3d35.66565976841115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca6996ed7d5%3A0xf595bc774c504e37!2zSmFwYW4sIOOAkjE1MC0wMDAxIFRva3lvLCBTaGlidXlhLCBKaW5nxattYWUsIDUtY2jFjW1l4oiSMTfiiJIyMCDjg4bjgqPjgrnjg6Lljp_lrr8!5e1!3m2!1sen!2sus!4v1754193283984!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>								 -->
 							</section>
-							<h3>Nearby Stations</h3>
+							<h3 class="lang en">Nearby Stations</h3>
+							<h3 class="lang ja" style="display:none;">最寄駅</h3>
 							<ul class="alt">
-								<li>Tokyo Metro - Meiji Jingumae Station #7 Exit - 5min Walk</li>
-								<li>Tokyo Metro - Shibuya Station #13 Exit - 15min Walk</li>
-								<li>JR Line - Harajuku Station #13 Exit - 15min Walk</li>
+								<li class="lang en">Tokyo Metro - Meiji Jingumae Station #7 Exit - 5min Walk</li>
+								<li class="lang ja" style="display:none;">東京メトロ 明治神宮前 7番出口より 徒歩5分</li>
+								<li class="lang en">Tokyo Metro - Shibuya Station #13 Exit - 15min Walk</li>
+								<li class="lang ja" style="display:none;">東京メトロ 渋谷駅 13番出口より 徒歩15分</li>
+								<li class="lang en">JR Line - Harajuku Station #13 Exit - 15min Walk</li>
+								<li class="lang ja" style="display:none;">JR 原宿駅 より 徒歩15分 </li>
 							</ul>
-							2025.08.07 try uploading chatgpt code to github, the cloudflare pages. add en / jp language using json method.
+							2025.08.11 add en / jp to rest of site. update github, the cloudflare pages. 
 
 						
 <!-- 
@@ -203,20 +235,26 @@ AMERICANO (HOT / ICED)
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/Exterior/cafe-exterior.jpg" alt="" /></div><div class="content">
-								<h2>Hours</h2>
-								<p>10:00〜20:00</p>
+								<h2 class="lang en">Hours</h2>
+								<h2 class="lang ja" style="display:none;">営業時間</h2>
+								<p class="lang en">10:00〜20:00</p>
+								<p class="lang ja" style="display:none;">平日・土日祝　10:00〜20:00</p>
 							</div>
 						</section>
 						<section id="about" class="spotlight">
 							<div class="image"><img src="images/Interior/cafe-interior.jpg" alt="" /></div><div class="content">
-								<h2>About Tokyo Cafe</h2>
-								<p>Nestled in the heart of the city, Tokyo Cafe blends modern Tokyo vibes with warm, welcoming charm. Whether you're here for a slow morning latte, a midday pick-me-up, or a cozy evening chat, our space is designed to be your everyday escape. We serve thoughtfully crafted coffee, seasonal bites, and Japanese-inspired treats—all made with care. At Tokyo Cafe, it’s not just about great coffee—it’s about connection, comfort, and community. Come in, take a breath, and stay a while.</p>
+								<h2 class="lang en">About Tokyo Cafe</h2>
+								<h2 class="lang ja" style="display:none;">東京カフェについて</h2>
+								<p class="lang en">Nestled in the heart of the city, Tokyo Cafe blends modern Tokyo vibes with warm, welcoming charm. Whether you're here for a slow morning latte, a midday pick-me-up, or a cozy evening chat, our space is designed to be your everyday escape. We serve thoughtfully crafted coffee, seasonal bites, and Japanese-inspired treats—all made with care. At Tokyo Cafe, it’s not just about great coffee—it’s about connection, comfort, and community. Come in, take a breath, and stay a while.</p>
+								<p class="lang ja" style="display:none;">都会の中心部に位置する東京カフェは、現代的な東京の雰囲気と温かく歓迎する魅力が融合した空間です。朝のゆっくりとしたラテ、昼間のリフレッシュ、または夜のくつろいだ会話など、どんなシーンでもお楽しみいただけるよう、当店の空間は日常の逃避先として設計されています。丁寧に淹れたコーヒー、季節の軽食、日本風のお菓子など、すべてを心を込めてご用意しています。東京カフェでは、ただ美味しいコーヒーを提供するだけではありません。つながり、快適さ、そしてコミュニティが大切です。お越しいただき、深呼吸して、しばらくお過ごしください。</p>
 							</div>
 						</section>
 						<section id="stories" class="spotlight">
 							<div class="image"><img src="images/Customer/cafe-customer.jpg" alt="" /></div><div class="content">
-								<h2>Sips & Smiles: Your Stories</h2>
-								<p><i>"I’ve tried dozens of cafes in Tokyo, but this one keeps me coming back. The latte art is beautiful, the matcha is smooth, and the vibe is warm and relaxing. It feels like home."</i> – Taylor K., Tokyo</p>
+								<h2 class="lang en">Sips & Smiles: Your Stories</h2>
+								<h2 class="lang ja" style="display:none;">お客様の声</h2>
+								<p class="lang en"><i>"I’ve tried dozens of cafes in Tokyo, but this one keeps me coming back. The latte art is beautiful, the matcha is smooth, and the vibe is warm and relaxing. It feels like home."</i> – Taylor K., Tokyo</p>
+								<p class="lang ja" style="display:none;"><i>「東京のカフェを何十軒も試してきましたが、このカフェは何度も通いたくなる場所です。ラテアートが美しく、抹茶は滑らかで、雰囲気は温かくリラックスできる。まるで自宅のような居心地の良さです。」 – Kさん, 東京</i></p>
 							</div>
 						</section>
 					</section>
@@ -227,8 +265,10 @@ AMERICANO (HOT / ICED)
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Visit us today</h2>
-								<p>Come savor Tokyo’s favorite cup — in the heart of Tokyo!</p>
+								<h2 class="lang en">Visit us today</h2>
+								<h2 class="lang ja" style="display:none;">フェア開催中！</h2>
+								<p class="lang en">Come savor Tokyo’s favorite cup — in the heart of Tokyo!</p>
+								<p class="lang ja" style="display:none;">お近くにお越しの際はぜひ</p>
 							</header>
 							<!-- <ul class="actions stacked">
 								<li><a href="#" class="button fit primary">Activate</a></li>
@@ -242,14 +282,17 @@ AMERICANO (HOT / ICED)
 						<section class="wrapper">
 							<div class="inner">						
 								<section>
-									<h4>Contact Us</h4>
+									<h4 class="lang en">Contact Us</h4>
+									<h4 class="lang ja" style="display:none;">お問い合わせ</h4>
 									<form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												<input class="lang en" type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												<input class="lang ja" style="display:none;" type="text" name="demo-name" id="demo-name" value="" placeholder="名前" />
 											</div>
 											<div class="col-6 col-12-xsmall">
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												<input class="lang en" type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												<input class="lang ja" style="display:none;" type="email" name="demo-email" id="demo-email" value="" placeholder="電子メールアドレス" />
 											</div>
 											<!-- <div class="col-12">
 												<select name="demo-category" id="demo-category">
@@ -282,12 +325,19 @@ AMERICANO (HOT / ICED)
 											</div>
 											-->
 											<div class="col-12">
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												<textarea class="lang en" name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												<textarea class="lang ja" style="display:none;" name="demo-message" id="demo-message" placeholder="メッセージを入力してください" rows="6"></textarea>
 											</div>
 											<div class="col-12">
 												<ul class="actions">
-													<li><input type="submit" value="Send Message" class="primary" disabled/></li>
-													<li><input type="reset" value="Reset" disabled/></li>
+													<li>
+														<input type="submit" value="Send Message" class="lang en primary" disabled/>
+														<input type="submit" value="メッセージを送信" class="lang ja primary" style="display:none;" disabled/>
+													</li>
+													<li>
+														<input type="reset" value="Reset" class="lang en" disabled/>
+														<input type="reset" value="リセット" class="lang ja" style="display:none;" disabled/>
+													</li>
 												</ul>
 											</div>
 										</div>
@@ -319,6 +369,6 @@ AMERICANO (HOT / ICED)
 			<script src="assets/js/main.js"></script>
 
 		<!-- g: add -->
-			<script src="/assets/js/lang-switch.js"></script>
+			<script src="assets/js/lang-switch.js"></script>
 	</body>
 </html>

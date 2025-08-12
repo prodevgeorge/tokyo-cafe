@@ -9,8 +9,11 @@ switchBtn.addEventListener('click', () => {
   lang = lang === 'en' ? 'ja' : 'en';
   localStorage.setItem('preferredLang', lang);
   applyLanguage(lang);
-  const newUrl = `/${lang}/`;
-  history.pushState({lang}, '', newUrl);
+
+  // vvvvv g: disabled temporarily so I don't have to deal with url issues when developing with Live Preview
+  // const newUrl = `/${lang}/`;
+  // history.pushState({lang}, '', newUrl);
+  // ^^^^^ g: disabled temporarily so I don't have to deal with url issues when developing with Live Preview
 });
 
 function applyLanguage(language) {
@@ -40,6 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (preferred && preferred !== lang) {
     lang = preferred;
     applyLanguage(lang);
-    history.replaceState({lang}, '', `/${lang}/`);
+    // g vvvvv: disabled temporarily so I don't have to deal with url issues when developing with Live Preview
+    // history.replaceState({lang}, '', `/${lang}/`);
+    // g ^^^^^: disabled temporarily so I don't have to deal with url issues when developing with Live Preview
   }
 });
