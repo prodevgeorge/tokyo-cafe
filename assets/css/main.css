@@ -3410,9 +3410,10 @@ input, select, textarea {
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 0.9em;
+
+					font-size: 0.9em;	/* font-size: 1em; */
 					font-weight: 600;
-					/* font-size: 1em; */
+					
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
